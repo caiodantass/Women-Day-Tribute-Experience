@@ -1,4 +1,4 @@
-# 🌸 Tribute & Interactive UI/UX Experience in React
+# Tribute & Interactive UI/UX Experience in React
 
 [![React](https://img.shields.io/badge/Frontend-React%2018-61DAFB.svg?logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Bundler-Vite-646CFF.svg?logo=vite&logoColor=white)](https://vitejs.dev/)
