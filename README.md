@@ -74,7 +74,7 @@ npm install
 npm run dev
 ```
 
-Acesse [(http://localhost:5173)] no seu navegador para visualizar a aplicação localmente.
+Acesse [](http://localhost:5173) no seu navegador para visualizar a aplicação localmente.
 
 ---
 
