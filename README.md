@@ -1,237 +1,86 @@
-# Site de Homenagem ao Dia das Mulheres
+# 🌸 Tribute & Interactive UI/UX Experience in React
 
-Este projeto é um site especial desenvolvido para homenagear duas mulheres muito importantes na minha vida: minha mãe **Lucélia** e minha namorada **Samille**.
+[![React](https://img.shields.io/badge/Frontend-React%2018-61DAFB.svg?logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Bundler-Vite-646CFF.svg?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![CSS3](https://img.shields.io/badge/Styling-CSS3%20Keyframes%20%26%20Animations-1572B6.svg?logo=css3)](https://www.w3.org/Style/CSS/)
+[![Deploy](https://img.shields.io/badge/Deploy-Vercel-black.svg?logo=vercel&logoColor=white)](https://site-homenagem-ao-dia-das-mulheres.vercel.app)
+[![Status](https://img.shields.io/badge/Status-Live%20Production-brightgreen.svg)](https://site-homenagem-ao-dia-das-mulheres.vercel.app)
 
-A ideia foi transformar carinho, gratidão e admiração em uma experiência visual bonita, com mensagens, fotos, animações suaves e música de fundo.
+Aplicação Web imersiva com foco em **Design Emocional**, **Micro-interações em CSS3**, **Animações Fluidas** e **Controle Multimídia**, desenvolvida em **React** e **Vite** com deploy contínuo na **Vercel**.
 
-O site foi criado utilizando **React + Vite**, com foco em design delicado e uma experiência emocional ao navegar pela página.
-
----
-
-# ✨ Demonstração
-
-Acesse o site publicado:
-
-🔗 https://site-homenagem-ao-dia-das-mulheres.vercel.app
+O projeto transforma mensagens e memórias em uma experiência digital delicada e interativa, apresentando cartões estilo Polaroid, envelope interativo com carta animada, partículas em suspensão e sincronização de áudio de fundo.
 
 ---
 
-# 💡 Objetivo do Projeto
+## 🌐 Demonstração Online
 
-Este projeto foi desenvolvido com o objetivo de:
-
-- Criar uma homenagem especial para o **Dia das Mulheres**
-- Transformar sentimentos em uma experiência digital
-- Praticar desenvolvimento frontend moderno
-- Explorar design visual, animações e experiência do usuário
+Acesse a aplicação em produção:  
+👉 **[site-homenagem-ao-dia-das-mulheres.vercel.app](https://site-homenagem-ao-dia-das-mulheres.vercel.app)**
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+## ✨ Destaques de Frontend & UI/UX
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+* **Micro-interações & Animações CSS3 Avançadas**:
+  * Efeito dinâmico de partículas contínuas (`@keyframes`) no background.
+  * Cartões de fotos com estética **Polaroid**: sombras difusas, inclinações rotacionais (`transform: rotate`) e animações de elevação no hover.
+  * Envelope interativo com animação de abertura de aba e revelação de carta estilo modal.
 
-### Frontend
-- **React**
-- **Vite**
-- **JavaScript (JSX)**
-- **CSS3**
+* **Tratamento de Áudio & Interação do Usuário**:
+  * Mecanismo de inicialização de áudio respeitando as políticas modernas de *Autoplay* dos navegadores (acionamento por clique deliberado na tela de boas-vindas).
+  * Controle de estado da mídia integrado ao ciclo de vida da interface.
 
-### Ferramentas
-- **Node.js**
-- **npm**
-- **Git**
-- **GitHub**
+* **Design Responsivo & Mobile-First**:
+  * Layout fluido adaptado para qualquer resolução de tela (smartphones, tablets e desktops) sem distorção das proporções fotográficas.
 
-### Deploy
-- **Vercel**
+* **Deploy Automatizado (CI/CD)**:
+  * Pipeline integrado com a **Vercel**, garantindo builds otimizados a cada commit através do empacotador de alta performance **Vite**.
 
 ---
 
-# 🎨 Principais Funcionalidades
+## 📁 Estrutura do Projeto
 
-O site possui diversas funcionalidades criadas para tornar a experiência mais especial.
-
-### Tela inicial de suspense
-Antes de mostrar o conteúdo do site, aparece uma tela inicial convidando o usuário a clicar para abrir a surpresa.
-
-Quando o botão é pressionado:
-- o site inicia a música
-- o conteúdo aparece com animações suaves
-
----
-
-### Música de fundo
-O site possui uma música romântica de fundo que começa quando o usuário inicia a experiência.
-
-Arquivo utilizado:
-public/musica.mp3
+site-homenagem/ ├── public/ │ └── musica.mp3 # Trilha de áudio de fundo ├── src/ │ ├── assets/ # Acervo de imagens e fotografias │ ├── DiaDasMulheresPremium.jsx # Componente central com regras de apresentação │ ├── DiaDasMulheresPremium.css # Design System customizado e keyframes de animação │ ├── App.jsx # Ponto de entrada do React │ └── main.jsx # Renderização no DOM ├── index.html # Base HTML5 com viewport responsiva ├── vite.config.js # Configuração de build do Vite └── package.json # Metadados e dependências
 
 
 ---
 
-### Fotos personalizadas
+## 🛠️ Stack Tecnológica
 
-O site utiliza **7 fotos diferentes**, exibidas em diferentes partes da página:
-
-- Foto principal
-- Fotos da mãe
-- Fotos da namorada
-- Fotos juntos
-
-As imagens são carregadas localmente a partir da pasta:
-src/assets/
-
+* **Frontend Library**: React 18
+* **Build Tool**: Vite
+* **Estilização**: CSS3 Puro (Custom Properties, Flexbox, Grid, Keyframe Animations)
+* **Controle de Versão**: Git & GitHub
+* **Hospedagem & CI/CD**: Vercel
 
 ---
 
-### Layout com estilo Polaroid
+## 🚀 Como Executar Localmente
 
-As fotos foram estilizadas para lembrar **fotos Polaroid**, com:
+### Pré-requisitos
+* [Node.js](https://nodejs.org/) instalado (versão 18 ou superior).
 
-- bordas brancas
-- sombras suaves
-- leve inclinação
-- animação ao passar o mouse
+### Passo a Passo
 
----
-
-### Animações visuais
-
-O site possui diversas animações para melhorar a experiência:
-
-- fade de entrada
-- animação de subida suave
-- corações caindo no fundo
-- efeito de hover nas imagens
-- botões animados
-
----
-
-### Carta especial
-
-Existe também uma **carta interativa** que pode ser aberta ao clicar no botão **Abrir carta**.
-
-A carta aparece como um **envelope animado**, contendo uma mensagem especial.
-
----
-
-### Seção de homenagem
-
-O site possui seções dedicadas para:
-
-- homenagem à mãe
-- homenagem à namorada
-
-Cada seção contém:
-
-- mensagem personalizada
-- fotos
-- layout estilizado
-
----
-
-### Seção "Por que vocês são especiais"
-
-Foi criada uma seção destacando os motivos pelos quais cada uma é especial.
-
-Essa seção apresenta:
-
-- cards individuais
-- lista de qualidades
-- design elegante
-
----
-
-### Frase final emocionante
-
-Ao final do site há uma frase especial:
-
-> Algumas pessoas tornam a vida mais bonita simplesmente por existirem.  
-> Minha mãe e minha namorada são duas delas. ❤️
-
----
-
-# 📁 Estrutura do Projeto
-
-A estrutura do projeto está organizada da seguinte forma:
-dia-das-mulheres/
-│
-├── public/
-│ └── musica.mp3
-│
-├── src/
-│ │
-│ ├── assets/
-│ │ ├── eu-e-mae.jpeg
-│ │ ├── eu-e-nam.jpeg
-│ │ ├── so-mae1.jpeg
-│ │ ├── so-mae2.jpeg
-│ │ ├── so-nam1.jpeg
-│ │ ├── so-nam2.jpeg
-│ │ └── todos.jpeg
-│ │
-│ ├── DiaDasMulheresPremium.jsx
-│ ├── DiaDasMulheresPremium.css
-│ ├── App.jsx
-│ └── main.jsx
-│
-├── package.json
-├── vite.config.js
-└── README.md
-
----
-
-# ⚙️ Como executar o projeto localmente
-
-### 1. Clonar o repositório
-
-
+```bash
+# 1. Clone o repositório
 git clone https://github.com/caiodantass/Site-homenagem-ao-dia-das-mulheres.git
-
-
-### 2. Entrar na pasta do projeto
-
-
 cd Site-homenagem-ao-dia-das-mulheres
 
-
-### 3. Instalar dependências
-
-
+# 2. Instale as dependências
 npm install
 
-
-### 4. Rodar o projeto
-
-
+# 3. Inicie o servidor de desenvolvimento
 npm run dev
+```
 
-
-O projeto abrirá em:
-
-
-http://localhost:5173
-
+Acesse [(http://localhost:5173)] no seu navegador para visualizar a aplicação localmente.
 
 ---
 
-# 🚀 Deploy
+## 👨‍💻 Autor
 
-O site foi publicado utilizando a plataforma **Vercel**.
-
-A Vercel permite fazer deploy automático diretamente a partir do GitHub.
-
-Sempre que o projeto é atualizado no repositório, a Vercel realiza um novo deploy automaticamente.
-
----
-
-# ❤️ Mensagem Final
-
-Este projeto foi criado com muito carinho e dedicação.
-
-Mais do que um exercício de programação, ele representa uma forma de demonstrar gratidão e amor por duas pessoas muito especiais na minha vida.
-
----
-
-Feito com carinho por **Caio**
+**Caio Lívio Dantas**  
+* Engenheiro de Software / Desenvolvedor  
+* LinkedIn: [linkedin.com/in/caio-lívio](https://www.linkedin.com/in/caio-l%C3%ADvio/)  
+* GitHub: [@caiodantass](https://github.com/caiodantass)
