@@ -12,14 +12,14 @@ O projeto transforma mensagens e memórias em uma experiência digital delicada 
 
 ---
 
-## 🌐 Demonstração Online
+## Demonstração Online
 
 Acesse a aplicação em produção:  
-👉 **[site-homenagem-ao-dia-das-mulheres.vercel.app](https://site-homenagem-ao-dia-das-mulheres.vercel.app)**
+ **[site-homenagem-ao-dia-das-mulheres.vercel.app](https://site-homenagem-ao-dia-das-mulheres.vercel.app)**
 
 ---
 
-## ✨ Destaques de Frontend & UI/UX
+## Destaques de Frontend & UI/UX
 
 * **Micro-interações & Animações CSS3 Avançadas**:
   * Efeito dinâmico de partículas contínuas (`@keyframes`) no background.
@@ -38,14 +38,14 @@ Acesse a aplicação em produção:
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 site-homenagem/ ├── public/ │ └── musica.mp3 # Trilha de áudio de fundo ├── src/ │ ├── assets/ # Acervo de imagens e fotografias │ ├── DiaDasMulheresPremium.jsx # Componente central com regras de apresentação │ ├── DiaDasMulheresPremium.css # Design System customizado e keyframes de animação │ ├── App.jsx # Ponto de entrada do React │ └── main.jsx # Renderização no DOM ├── index.html # Base HTML5 com viewport responsiva ├── vite.config.js # Configuração de build do Vite └── package.json # Metadados e dependências
 
 
 ---
 
-## 🛠️ Stack Tecnológica
+## Stack Tecnológica
 
 * **Frontend Library**: React 18
 * **Build Tool**: Vite
@@ -55,7 +55,7 @@ site-homenagem/ ├── public/ │ └── musica.mp3 # Trilha de áudio de
 
 ---
 
-## 🚀 Como Executar Localmente
+## Como Executar Localmente
 
 ### Pré-requisitos
 * [Node.js](https://nodejs.org/) instalado (versão 18 ou superior).
@@ -78,7 +78,7 @@ Acesse [http://localhost:5173](http://localhost:5173) no seu navegador para visu
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Caio Lívio Dantas**  
 * Engenheiro de Software / Desenvolvedor  
